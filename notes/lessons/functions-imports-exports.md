@@ -28,6 +28,11 @@ import // other packages here
 - Declaration involves the type being declared **after** the variable mame. 
 - Functions can return any number of results. 
 - **Naked** return statements are those without any values. 
+- Functions are **values** too, so they can be passed around. 
+- This means that a function can be assigned to a variable, or passed as arguments into other functions. 
+- a **closure** is a function that **captures** variables from its surrounding lexical scope. 
+- This allows the function to **access and modify** variables defined **outside its body**
+- The function may access and assign to the referenced variables; in this sense the function is **bound** to the variables -> from *A Tour of Go* (referenced in README)
 
 *Try Exercise 1 and 2 in the practise folder to practise function syntax!*
 
